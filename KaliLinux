@@ -318,7 +318,6 @@ def pilih():
 		print "\x1b[1;91mFill in correctly"
 		pilih()
         menu()		
-	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
 		keluar()
